@@ -56,7 +56,7 @@ namespace TMPro.Examples
             if (!isStatic)
             {
                 m_text.SetText(k_label, count % 1000);
-                count += 1;
+                count++;
             }
         }
 

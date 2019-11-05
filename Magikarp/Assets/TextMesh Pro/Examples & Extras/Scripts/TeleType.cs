@@ -71,7 +71,7 @@ namespace TMPro.Examples
                     yield return new WaitForSeconds(1.0f);
                 }
 
-                counter += 1;
+                counter++;
 
                 yield return new WaitForSeconds(0.05f);
             }

@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class SliderValue : MonoBehaviour
 {
-    private Slider test;
+    private Slider sliderValue;
 
     void Awake()
     {
-        test = this.gameObject.GetComponent<Slider>();
+        sliderValue = this.gameObject.GetComponent<Slider>();
     }
 
     // Update is called once per frame

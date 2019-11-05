@@ -165,7 +165,7 @@ namespace TMPro.Examples
                     m_TextComponent.UpdateGeometry(textInfo.meshInfo[i].mesh, i);
                 }
 
-                loopCount += 1;
+                loopCount++;
 
                 yield return new WaitForSeconds(0.1f);
             }

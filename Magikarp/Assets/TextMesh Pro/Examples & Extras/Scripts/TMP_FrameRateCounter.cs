@@ -74,7 +74,7 @@ namespace TMPro.Examples
 
             last_AnchorPosition = AnchorPosition;
 
-            m_Frames += 1;
+            m_Frames++;
             float timeNow = Time.realtimeSinceStartup;
 
             if (timeNow > m_LastInterval + UpdateInterval)

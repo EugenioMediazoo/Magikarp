@@ -62,7 +62,7 @@ namespace TMPro.Examples
                 //    Debug.DrawLine(m_transform.position, m_prevPOS, m_lightColor, 100f);
 
                 m_prevPOS = m_transform.position;
-                frames += 1;
+                frames++;
             }
         }
     }
